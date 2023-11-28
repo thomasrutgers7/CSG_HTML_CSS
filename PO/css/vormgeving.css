@@ -1,17 +1,184 @@
-html, body {
+* {
     padding: 0;
     margin: 0;
 }
 
 body {
-    background: #5d524c;
-    color: #c8c3bf;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     size: 14px;
-    padding-left: 10%;
 }
 
-#vogel {
-    width: 225px;
-    height: auto;
+#menu li {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.0rem;
+    width: 300px;
+    background-color: #c0c0c0c4;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+
+#mc {
+    text-align: center;
+    margin: 20px auto;
+    
+}
+
+#menu a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+#menu a:hover {
+    color: blue;
+    text-shadow: 2px 2px 4px #000;
+}
+
+#container {
+    background-color: transparent;
+    width: 800px;
+    height: 1400px;
+    margin: auto;
+}
+
+#gevarenvanzeilen {
+    background-position: center;
+    background-image: url('PO/css/zeilfotoachtergrond.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#decijfers {
+    background-position: center;
+    background-image: url('PO/css/Achtergrond2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#hoeteverkomen {
+    background-position: center;
+    background-image: url('PO/css/achtergrond3.JPG');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.langvakje {
+    background-color: rgba(231, 239, 241, 0.85);
+    text-align: center;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+#langvakje2 {
+    background-color: rgba(231, 239, 241, 0.85);
+    text-align: left;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    height: 235px;
+}
+
+#langvakje3 {
+    background-color: rgba(231, 239, 241, 0.85);
+    text-align: left;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    height: 480px;
+}
+
+.tekstvakjeslinks {
+    background-color: rgba(231, 228, 228, 0.78);
+    text-align: left;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 46%;
+    margin-top: 8px;
+    float: left;
+    height: 260px;
+}
+
+.tekstvakjesRechts {
+    background-color: rgba(189, 186, 186, 0.86);
+    text-align: left;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 46%;
+    margin-top: 8px;
+    float: right;
+    height: 260px;
+}
+
+#dikgedrukt {
+    font-weight: bolder;
+}
+
+#onderaan {
+    margin-top: 880px;
+}
+
+#onderaan2{
+    margin-top: 585px;
+    text-align: left;
+}
+
+#plaatjevolvo {
+    border-radius: 10px;
+    float: right;
+    height: 210px;
+}
+
+#plaatjevolvo2 {
+    border-radius: 10px;
+    float: left;
+    height: 210px;
+}
+
+#lijstveiligheid {
+    padding-left: 30px;
+}
+
+
+.tekstvakjeslinks2 {
+    background-color: rgba(168, 196, 223, 0.86);
+    text-align: left;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 46%;
+    margin-top: 8px;
+    float: left;
+    height: 260px;
+}
+
+.tekstvakjesRechts2 {
+    background-color: rgba(208, 222, 241, 0.78);
+    text-align: left;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 46%;
+    margin-top: 8px;
+    float: right;
+    height: 260px;
 }

@@ -1,0 +1,27 @@
+colofon Thomas Rutgers
+achtergrondplaatje1:https://wallup.net/wp-content/uploads/2016/03/29/324393-sea-water-sports-sailing.jpg
+achtergrondplaatje2:https://www.sailingscuttlebutt.com/wp-content/uploads/2015/03/DSC8845.jpg
+achtergrondplaatje3:
+volvooceanraceplaatje:https://cdn.nos.nl/image/2014/12/04/33691/xxl.jpg
+volvooceanraceplaatje2:https://cdn.nos.nl/image/2014/12/16/36903/xxl.jpg
+
+klasgenoten (Ivar en Marco) voor css stukjes:
+achtergrond goed krijgen
+    background-position: center;
+    background-image: url('PO/css/zeilfotoachtergrond.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+en 
+    border-radius: ;
+Voor de rest alles uit voorbeelden, uit de lessen en zelf uitgevogeld.
+
+Toen ik van deze id's een class maakte viel alleen het menu bij de pagina 'De cijfers' weg. Ik had het ook in mijn css aangepast maar het werkte niet dus heb ik het weer terug gezet naar id.
+        <div id="mc">
+            <ul id="menu">
+
+
+informatie volvooceanrace ongeluk:
+https://nos.nl/artikel/2009646-waar-ging-het-mis-bij-wouter-verbraak
+informatie:
+https://www.yachting.com/nl-nl/news/accidents-at-sea
+https://www.rtlnieuws.nl/onderzoek/artikel/4826251/ongevallen-water-scheepsvaart-recreatievaart
